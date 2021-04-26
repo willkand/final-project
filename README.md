@@ -36,10 +36,10 @@ It must meet the project requirements below, but beyond that, feel free to use y
 
 And so many more possibilities!
 
-## Recomended approach
+## Recommendations
 
-Start small and build pieces of your project incrementally. 
-
-Start out by creating your project's foundation in HTML. After that, save your work by making a commit in git.
-
-From here, build one piece of Javascript functionality at a time, testing each change you make with `console.log`. Frequently make commmits in git to save your progress.
+* Start out by creating your project's foundation in HTML.
+* From here, build one piece of Javascript functionality at a time, testing each change you make with `console.log`. 
+* Frequently make commmits in git to save your progress.
+* Keep your code meticulously organized as you go. Use proper indentation, whitespace, and comments for organization. Additionally, write functions for each separate piece of functionality that exists in your code. This make your code "modular" and easier to build off of.
+* If you find yourself repeating code, think about how you could use either a loop or a new function to eliminate the repitition.
