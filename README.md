@@ -39,7 +39,7 @@ And so many more possibilities!
 ## Recommendations
 
 * Start out by creating your project's foundation in HTML.
-* From here, build one piece of Javascript functionality at a time, testing each change you make with `console.log`. 
 * Frequently make commmits in git to save your progress.
+* Build one piece of Javascript functionality at a time, testing each change you make with `console.log`. 
 * Keep your code meticulously organized as you go. Use proper indentation, whitespace, and comments for organization. Additionally, write functions for each separate piece of functionality that exists in your code. This make your code "modular" and easier to build off of.
 * If you find yourself repeating code, think about how you could use either a loop or a new function to eliminate the repitition.
