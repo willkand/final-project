@@ -34,4 +34,12 @@ It must meet the project requirements below, but beyond that, feel free to use y
   * Recreate Reddit
   * Pokedex
 
-And so many  more possibilities!
+And so many more possibilities!
+
+## Recomended approach
+
+Start small and build pieces of your project incrementally. 
+
+Start out by creating your project's foundation in HTML. After that, save your work by making a commit in git.
+
+From here, build one piece of Javascript functionality at a time, testing each change you make with `console.log`. Frequently make commmits in git to save your progress.
