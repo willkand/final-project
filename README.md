@@ -1,8 +1,8 @@
 # Final Project
 
-Congratulations on making it to the final project. In this assignment, you'll build a web application that does anything you want! It must meet the project requirements below, but beyond that, feel free to use your creativity to decide on what your app will do.
+In this project, you'll build a web application that does anything you want! 
 
-
+It must meet the project requirements below, but beyond that, feel free to use your creativity to decide on what your app will do.
 
 ## Requirements
 
