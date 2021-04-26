@@ -7,7 +7,7 @@ It must meet the project requirements below, but beyond that, feel free to use y
 ## Requirements
 
 * Your app has at least three features
-  * For a To Do List app, three features could be "adding todos", "editing todos", and "removing todos"
+  * For a 'Todo list app', three features could be "adding todos", "editing todos", and "removing todos"
 * Your project has at least ten commits in git
 * Your app is mobile responsive
 * Your project contains a `README.md` file that explains what your project is and how to use it
