@@ -22,7 +22,6 @@ It must meet the project requirements below, but beyond that, feel free to use y
 * Travel planner
 * Budget manager
 * Resume builder
-* Ballmer-peak calculator
 * Shift scheduling app
 * Chat bot
 * Music making app
