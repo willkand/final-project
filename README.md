@@ -8,8 +8,6 @@ It must meet the project requirements below, but beyond that, feel free to use y
 
 * **Your app has at least three distinct "features"**
   * If you are building a travel planning application, one feature could be allowing users to create a new trip
-* Your project has at least ten commits in git
-* Your app is mobile responsive
 * Your project contains a `README.md` file that explains what your project is and how to use it
 * Your project is hosted on GitHub pages
 * Your code is clean
@@ -43,4 +41,4 @@ And so many more possibilities!
 * Keep your code meticulously organized as you go. 
 * Use proper indentation, whitespace, and comments. 
 * Try to write a function for each separate piece of functionality that exists in your code. This will make your code "modular" and easier to build off of.
-* If you find yourself repeating code, think about how you could use either a loop or a new function to eliminate the repitition.
+* If you find yourself repeating code, think about how you could use either a loop or a new function to eliminate the repitition. DRY - Don't Repeat Yourself!
