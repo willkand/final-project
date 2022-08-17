@@ -5,5 +5,6 @@
 * Black Goes first :-) 
 * Basic Chess Gameplay
 * Undo Endabled
-* {Audible Checkmake - Coming Soon!}
+* {No Audible Checkmake - Coming Soon!}
+* {No Castle - Coming Soon!}
 
