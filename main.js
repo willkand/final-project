@@ -46,7 +46,7 @@ $(document).ready(function() {
         }, 
         {
             name: 'GREEN',
-            color: '#030'
+            color: '#050'
         }, 
         {
             name: 'BLUE',
@@ -445,18 +445,18 @@ $(document).ready(function() {
 		 for(let move of moves) {
 			  var tI = i + move[0];
 			  var tJ = j + move[1];
-			  let sugg = true;
-			  while(sugg && !outOfBounds(tI, tJ)) {
+			  let suggest = true;
+			  while(suggest && !outOfBounds(tI, tJ)) {
 					var box = $('#box-' + tI + '-' + tJ);
 					if(box.hasClass('placed')) {
 						 if(box.attr('piece').indexOf(color) >= 0) {
-							  sugg = false;
+							  suggest = false;
 						 } else {
 							  nextMoves.push([tI, tJ]);
-							  sugg = false;
+							  suggest = false;
 						 }
 					}
-					if(sugg) {
+					if(suggest) {
 						 nextMoves.push([tI, tJ]);
 						 tI += move[0];
 						 tJ += move[1];
