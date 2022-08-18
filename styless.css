@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgba(0, 234, 255, 0.717);
+    padding: 20px;
+    font-size: 25px;
+}
+
+body {
+    background-color: goldenrod;
+}
+
+header > h1 {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.Score {
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin: 20px auto;
+    width: 200px;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.badge {
+    background: rgb(0, 255, 8);
+    color: black;
+    font-size: 15px;
+    padding: 5px 10px;
+    font-family: sans-serif;
+}
+
+#Player-label {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}
+
+#CPU-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+    font-size: 50px;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.choices { 
+    margin-top: 40px;
+    text-align: center;
+}
+
+.choice { 
+    border: 5px solid black;
+    padding: 5px;
+    margin: 0 18px;
+    border-radius: 60%;
+    display: inline-block;
+    transition: all 0.4 ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: rgb(49, 0, 128);
+}
+ #Action {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+ }
+
+ .green-glow {
+    border: 10px solid rgba(75, 255, 47, 0.764);
+    box-shadow: 0 0 15px green;
+ }
+
+ .red-glow {
+    border: 10px solid rgb(255, 92, 47);
+    box-shadow: 0 0 15px red;
+ }
+
+ .grey-glow {
+    border: 10px solid grey;
+    box-shadow: 0 0 15px grey;
+ }
+
+ .my-img {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -150px; /*half width of img*/
+ }

@@ -1,54 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="icon" href="https://img.icons8.com/clouds/100/000000/game-chess.png">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <H1>Rock Paper Scissors</H1>
+    </header>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Chess</title>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="styles.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div class="option-nav">
-	<div id="player-nav">
-		Player: <span id="player"></span>
-	</div>
-	<div id="option" class="btn">
-		<i class="fa fa-cog" aria-hidden="true"></i>
-		<span class="tooltiptext">OPTION</span>
-	</div>
-	<div id="undo-btn" class="btn">
-		<i class="fa fa-undo" aria-hidden="true"></i>
-		<span class="tooltiptext">UNDO</span>
-	</div>
-</div>
-<div id="board">
-	<div id="result" class="hide"></div>
-	<div id="pawn-promotion-option" class="hide">
-		 <span id="queen" class="option"></span>
-		 <span id="rook" class="option"></span>
-		 <span id="knight" class="option"></span>
-		 <span id="bishop" class="option"></span>
-	</div>
-	<div id="option-menu" class="hide">
-		 <div id="theme-menu">
-			 THEME: <span id="theme-option" class="button"></span>
-		 </div>
-		 <div id="color-menu">
-			 COLOR: <span id="color-option" class="button"></span>
-		 </div>
-		 <div id="restart-btn" class="button">NEW GAME</div>
-	</div>
-	<div id="game" ng-app="myWork" ng-controller="GameController">
-		 <div class="row" ng-repeat="y in widths">
-			  <div class="box" ng-repeat="x in widths" ng-attr-id="{{'box-' + x + '-' + y}}" piece="">
-			  </div>
-		 </div>
-	</div>
-</div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="main.js"></script>
-  </body>
+    <div class="Score">
+        <div id= "Player-label" class= "badge">Player</div>
+        <div id= "CPU-label" class= "badge">CPU</div>
+        <span id= "Player-score">0</span>:<span id="CPU-score">0</span>
+    </div>
+
+    <div class= "result">
+        <P>Rock breaks scissors. Player wins!</P>
+    </div>
+
+    <div class = "choices">
+        <div class="choice" id="Rock">
+            <img src="https://raw.githubusercontent.com/ashwani99/rock-paper-scissors/9e3c1efc8a52cb756b662295fc156f3e363da748/img/rock.svg" alt="">
+        </div>
+        <div class="choice" id="Scissors">
+            <img src="https://raw.githubusercontent.com/ashwani99/rock-paper-scissors/9e3c1efc8a52cb756b662295fc156f3e363da748/img/scissors.svg" alt="">
+        </div>
+        <div class="choice" id="Paper">
+            <img src="https://raw.githubusercontent.com/ashwani99/rock-paper-scissors/9e3c1efc8a52cb756b662295fc156f3e363da748/img/paper.svg" alt="">
+        </div>
+    </div>
+
+        <p id="Action">Choose your Move :)</p>
+    <br>
+    <img class='my-img' src="https://s-media-cache-ak0.pinimg.com/originals/f9/54/ca/f954caa5ac54b784123653d3dfb9ed63.jpg" width='300' alt="">
+   
+</body>
+<script src="main.js"></script>
 </html>
